@@ -1,0 +1,100 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+
+/*registration-section*/
+.registration-section{
+	margin: auto;
+	max-width: 31.25rem;
+	padding: 1.25rem;
+	border: solid black 1px;
+	border-radius: 0.625rem;
+}
+
+.space{
+	display: flex;
+	flex-direction: column;
+	padding: 1.25rem;
+}
+
+.form-box{
+	margin-bottom: 1.25rem;
+}
+
+
+.registration-text-box{
+	border: solid black 1px;
+	border-radius: 0.625rem;
+	padding: 1.25rem 1rem;
+	height: 50px;
+	width: 100%;
+}
+
+.date-of-birt{
+	display: flex;
+	flex-direction: row;	
+}
+
+.date{
+	margin-right: 0.625rem;
+}
+
+.date:last-child{
+	margin: 0rem;
+}
+
+.registration-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	padding: 0.625rem 50px ;
+	border: solid black 1px;
+	border-radius: 0.625rem;
+	width: 12.5rem;
+	margin: auto;
+}
+
+.space-mobile{
+	margin-bottom: 20px;
+}
+
+.registration-button:hover{
+	background-color: #FFE351;
+}
+
+h1{
+	text-align: center;
+	font-family: Inter-Black;
+	font-weight: 400;
+	font-size: 32px;
+}
+/*registration-section*/
+
+
+
+
+footer{
+	background-color: gray;
+	padding: 100px 0px;
+	margin-top: 100px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+	body {
+	  background-color: lightblue;
+	}
+
+	h1{
+		font-size: 24px;
+	}
+	.registration-section{
+		border: none;
+	}
+  }

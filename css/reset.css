@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	touch-action: manipulation;
+}
+
+:root {
+	font-size: 16px;
+}
